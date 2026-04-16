@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51f87174-6664-4cd4-ad5d-e39efccd5a41" name="更改" comment="feat: 完成数据容器部分学习">
-      <change afterPath="$PROJECT_DIR$/day5/func.py" afterDir="false" />
+    <list default="true" id="51f87174-6664-4cd4-ad5d-e39efccd5a41" name="更改" comment="feat: 完成函数基础学习">
+      <change afterPath="$PROJECT_DIR$/day6/errors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6/func_type.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6/module.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6/mymodule.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6/myutils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6/myutils/mysum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6/obj.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6/package.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,10 +61,14 @@
     "Python.char.executor": "Run",
     "Python.dataContent.executor": "Run",
     "Python.func.executor": "Run",
+    "Python.func_type.executor": "Run",
     "Python.input.executor": "Run",
     "Python.logic (1).executor": "Run",
     "Python.logic.executor": "Run",
     "Python.logicTest.executor": "Run",
+    "Python.module.executor": "Run",
+    "Python.obj.executor": "Run",
+    "Python.package.executor": "Run",
     "Python.string_chain.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -73,32 +85,7 @@
       <recent name="$PROJECT_DIR$/day3" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.func">
-    <configuration name="dataContent" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day4" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day4/dataContent.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.obj">
     <configuration name="func" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
@@ -124,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="logic (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="func_type" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,14 +120,14 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day3/logic.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day6/func_type.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="logic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="module" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -158,14 +145,64 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter_5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day6" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter_5/logic.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day6/module.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="obj" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day6/obj.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="package" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day6/package.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,10 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.obj" />
+        <item itemvalue="Python.package" />
+        <item itemvalue="Python.module" />
+        <item itemvalue="Python.func_type" />
         <item itemvalue="Python.func" />
-        <item itemvalue="Python.dataContent" />
-        <item itemvalue="Python.logic (1)" />
-        <item itemvalue="Python.logic" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +239,8 @@
       <workItem from="1776004879255" duration="15929000" />
       <workItem from="1776141495068" duration="13386000" />
       <workItem from="1776179332205" duration="2619000" />
-      <workItem from="1776265131458" duration="6541000" />
+      <workItem from="1776265131458" duration="6780000" />
+      <workItem from="1776324306395" duration="8140000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -243,7 +282,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776183144416</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: 完成函数基础学习">
+      <option name="closed" value="true" />
+      <created>1776274980747</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1776274980747</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,16 +311,21 @@
     <MESSAGE value="init" />
     <MESSAGE value="feat: 完成循环及关键字等学习" />
     <MESSAGE value="feat: 完成数据容器部分学习" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 完成数据容器部分学习" />
+    <MESSAGE value="feat: 完成函数基础学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 完成函数基础学习" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonProject$logic__1_.coverage" NAME="logic (1) 覆盖结果" MODIFIED="1776096312043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day3" />
     <SUITE FILE_PATH="coverage/PythonProject$func.coverage" NAME="func 覆盖结果" MODIFIED="1776273789540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day5" />
-    <SUITE FILE_PATH="coverage/PythonProject$logicTest.coverage" NAME="dataContent 覆盖结果" MODIFIED="1776157438373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4" />
+    <SUITE FILE_PATH="coverage/PythonProject$module.coverage" NAME="module 覆盖结果" MODIFIED="1776328459219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day6" />
     <SUITE FILE_PATH="coverage/PythonProject$logic.coverage" NAME="logic 覆盖结果" MODIFIED="1776064878160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_5" />
+    <SUITE FILE_PATH="coverage/PythonProject$package.coverage" NAME="package 覆盖结果" MODIFIED="1776328993537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day6" />
     <SUITE FILE_PATH="coverage/PythonProject$string_chain.coverage" NAME="string_chain 覆盖结果" MODIFIED="1776005197774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_2" />
+    <SUITE FILE_PATH="coverage/PythonProject$input.coverage" NAME="input 覆盖结果" MODIFIED="1776006025084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_3" />
+    <SUITE FILE_PATH="coverage/PythonProject$logic__1_.coverage" NAME="logic (1) 覆盖结果" MODIFIED="1776096312043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day3" />
+    <SUITE FILE_PATH="coverage/PythonProject$logicTest.coverage" NAME="dataContent 覆盖结果" MODIFIED="1776157438373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4" />
+    <SUITE FILE_PATH="coverage/PythonProject$func_type.coverage" NAME="func_type 覆盖结果" MODIFIED="1776325152822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day6" />
     <SUITE FILE_PATH="coverage/PythonProject$char.coverage" NAME="char 覆盖结果" MODIFIED="1776008657612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_4" />
     <SUITE FILE_PATH="coverage/PythonProject$dataContent.coverage" NAME="dataContent 覆盖结果" MODIFIED="1776265396450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day4" />
-    <SUITE FILE_PATH="coverage/PythonProject$input.coverage" NAME="input 覆盖结果" MODIFIED="1776006025084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter_3" />
+    <SUITE FILE_PATH="coverage/PythonProject$obj.coverage" NAME="obj 覆盖结果" MODIFIED="1776332416656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day6" />
   </component>
 </project>
